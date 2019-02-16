@@ -1,0 +1,41 @@
+/*------------------------------------------------------------------
+[green Stylesheet]
+
+Template Color:	green;
+
+# [Color codes]
+
+# Regular green (links, headings span, footer names): #EC9007
+# Darker green (countdown bg, span titles) #EC9007
+# Light green (links selected) #EC9007
+-------------------------------------------------------------------*/
+a, blockquote, span.love_quote, h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, span.post_date, .latest_posts .left13:hover .post_info h3 a, .latest_posts .left13_last:hover .post_info h3 a, .checkbox_container label span, .footer_names{
+color:#EC9007;
+}
+blockquote{
+border-left:3px #EC9007 solid;}
+a.post_read_more, a.view_all, .wp-pagenavi a, .wp-pagenavi span.current{
+border:1px #EC9007 solid;}
+.wp-pagenavi a:hover{ 
+background-color:#EC9007;}
+
+.back, .about_topsign, span.names_titles, span.subtitle{
+color:#EC9007;}
+.back, .contact_email a{
+border:1px solid #EC9007;}
+.no-touch .back:hover, .countdown_container, a.thumb_read_more, .full_width_carousel .left14 h3, .full_width_carousel .left14_last h3, input.form_submit_contact, input[type="checkbox"] + label:before, input[type="checkbox"]:checked + label:before
+{background-color:#EC9007; }
+
+
+.tp-title span:nth-child(2), .tp-title:hover, .page_header_title a, .title span, .title_under, ul#main_menu li a.selected, ul#main_menu li a:hover, span.carousel_titles{
+color:#EC9007;}
+
+ul#main_menu li a.selected, ul#main_menu li a:hover, .footer_menu li{
+//background:url(../images/menu_bullet.png) no-repeat left;
+}
+
+@media screen and (max-width: 680px) {
+nav.menu{background-color:#EC9007;}
+ul#main_menu li a.selected, ul#main_menu li a:hover, .footer_menu li{
+background:none;}
+}

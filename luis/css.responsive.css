@@ -1,0 +1,528 @@
+/*-------------------------------------------------------*/
+/* Media Queries */
+/*-------------------------------------------------------*/
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* Wrap/Container */
+    #content{
+        -webkit-box-shadow: 0px 3px 20px rgba(50, 50, 50, 0.5);
+        -moz-box-shadow:    0px 3px 20px rgba(50, 50, 50, 0.5);
+        box-shadow:         0px 3px 20px rgba(50, 50, 50, 0.5);
+        width:750px;
+        height:auto;
+        min-height:500px;
+    }
+    .container { width:750px; margin:0 auto;  margin-top:-80px;}
+    .card-pattern{ width:750px; margin:0 auto;}
+    .card_content{ clear:both; width:730px; margin:0 auto; margin-left:5px;}
+    blockquote  p{
+        width:730px;
+        clear:both
+    }
+    .bottom-shade{
+        background-repeat:no-repeat;
+        background-position:left top;
+        width:750px;
+        height:25px;
+        clear:both;
+    }
+    .tabs_tab {
+        width:660px
+    }
+
+    .button_large{
+        width:700px
+    }
+    #features p {width:92%;}
+    .left_pull{ width:100%; }
+
+    .slide-pad2 { float:right;  padding:0px 250px 5px 0px; width:7%;}
+
+    #home,#portfolio,#contact,.sub_page { width:720px; height:auto; margin:0 auto;}
+    .hline{ width:98%;  }
+    .sub_page h6{ font-size:20px; width:98%;}
+    /* //Wrap/Container */
+
+    /* Header  */
+    .logo_sec{ width:750px;  }
+    .groom, .bride{ width:40%; font-size: 35px; margin-top:-100px;}
+    /* //Header  */
+
+    /* Home start */
+    .card_left{ clear:both; width:70%; margin-left:110px;}
+    .card_left img{ margin-left:70px; margin-bottom:20px;}
+    .card_middle{ display:none;}
+    .card_right{ clear:both; width:70%; margin-left:110px;}
+    .card_right img{ margin-left:70px; margin-top:20px;}
+    /* //Home section */
+
+    /* Wedding */
+    ul.list li{ width:29%;}
+    /* //Wedding */
+
+    /* Gift start */
+    .register-top { margin:0px auto;}
+    ul.logo_image li img{ width:200px; height:46px;}
+    .logo_image{ margin-left:40px; }
+    /* //Gift */
+
+    /* Portfolio */
+    #portfolio-filter { margin:20px 0px 20px 20%; }
+    #portfolio-list { width:100%;  margin-top:-10px; }
+    #portfolio-list li { margin:12px 8px 0px 5px; }
+    /* //Portfolio */
+
+    /* Contact */
+    #contact iframe{ width:90%;}
+    #contact .left { margin:10px 0px 0px 10px; padding-top:10px; }
+    #contact .right { margin:0px 0px 0px 15px; }
+    #respond { height:auto; width:100%; }
+    #respond input[type=text] { width:85%; }
+    #respond textarea { resize:vertical; width:85%; }
+    #form { display:block; width:400px; padding:0px 20px 0px 0px; }
+    #form label.error { position:absolute; top:0px; left:-45px; }
+    #form .submitBtn{ margin-right:63px; }
+    #contact .right { clear:both; float:left; padding:0px 0px 0px 25px; }
+    /* //Contact */
+
+    .card_left img{
+        width: 500px;
+        height: auto;
+        margin-top: 39px;
+        margin-left: -9px;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    /* Wrap/Container */
+    #content{
+        -webkit-box-shadow: 0px 3px 12px rgba(50, 50, 50, 0.2);
+        -moz-box-shadow:    0px 3px 12px rgba(50, 50, 50, 0.2);
+        box-shadow:         0px 3px 12px rgba(50, 50, 50, 0.2);
+        height:auto;
+        width:445px;
+    }
+    .container { width:450px; margin:0 auto; margin-top:-30px; overflow:hidden; }
+    .card-pattern{ width:445px; margin:0 auto; }
+    .card_content{ clear:both; width:450px; margin:0 auto; }
+    .bottom-shade{
+        background-image:url(http://www.nossashistorias.com.br/site/templatesimages/categoria5/4/images/botttom-shade3.png);
+        background-repeat:no-repeat;
+        background-position:left top;
+        width:470px;
+        height:25px;
+        clear:both;
+    }
+    blockquote  p{
+        width:400px;
+        clear:both
+    }
+    .center{ width:430px;}
+    #home,#portfolio,#contact, .sub_page { width:430px; margin:0 auto; }
+    .hline{width:94%; margin:20px 0px;}
+
+    .sub_page h6{ font-size:16px; margin:0px 30px 0px 0px;}
+    .dot_line{ clear:both; width:300px;}
+    .tabs_tab {
+        width:380px
+    }
+    .button_large{
+        width:420px
+    }
+    #features p {width:380px; clear: both;}
+    .slide-pad2 { float:right;  padding:0px 280px 5px 5px; width:0%;}
+    /* // Wrap/Container */
+
+    /* Header  */
+    .heading{ font-size:25px;  }
+    .green_bg{ height:106px; }
+    .border_pat{ margin-top:55px; }
+    .logo_sec{ width:450px;}
+    .logo_sec small{ font-size:12px; }
+    .middle_heart{ background-size:80px 68px;}
+    .groom, .bride{ width:38%; margin-top:-110px; font-size:28px; line-height:18px;}
+    /* //Header  */
+
+    /* Menu start */
+    ul.arrowunderline { display:none; }
+    ul.arrowunderline li {
+        font-family:"Open Sans";
+        font-size:12px;
+        line-height:22px;
+        font-weight:normal;
+        color:#b6b6b6;
+        text-decoration:none;
+        text-transform:none;
+    }
+    ul.arrowunderline li:hover:after, ul.arrowunderline li#selected:after { border:hidden; }
+    .menu_nav { padding-top:0px; margin:5px 0px 0px 60%; }
+    #nav-wrap { position:relative; clear:both;}
+    .nav-wrap{ clear:both; position:relative; left:0;}
+
+    /* menu icon */
+    #menu-icon {
+        width:15px;
+        height:30px;
+        background:#f8f8f8 url(http://www.nossashistorias.com.br/site/templatesimages/categoria5/4/images/menu-icon.png) no-repeat 10px center;
+        padding:8px 25px 0 42px;
+        cursor:pointer;
+        -moz-box-shadow:10px 10px 5px #dbdbdb;
+        -webkit-box-shadow:10px 10px 5px #dbdbdb;
+        box-shadow:1px 1px 1px #dbdbdb;
+        -moz-border-radius:6px;
+        -webkit-border-radius:6px;
+        border-radius:6px;
+        display:block; /* show menu icon */
+    }
+    #menu-icon:hover { background-color:#e3e2e2; }
+    #menu-icon.active { background-color:#e7e7e7; }
+    /* main nav */
+    #nav {
+        clear:both;
+        position:absolute;
+        top:45px;
+        width:120px;
+        z-index:10000;
+        padding:5px;
+        background:#f8f8f8;
+        border:1px solid #dbdbdb;
+        moz-border-radius:6px;
+        -webkit-border-radius:6px;
+        border-radius:6px;
+        display:none; /* visibility will be toggled with jquery */
+    }
+    #nav li { clear:both;  margin:3px 0 3px 10px;}
+
+    #nav li:hover:after, ul.arrowunderline li#selected:after {
+        width:0;
+        height:0;
+        position:absolute;
+    }
+
+
+
+    /* dropdown */
+    #nav ul { width:auto; position:static; display:block; border:none; background:inherit; }
+    #nav ul li { margin:3px 0 3px 15px; }
+    /* //Menu */
+
+    /* Home start */
+    .card_left{ clear:both; width:93%;}
+    .card_left img{ margin-left:35px; margin-bottom:20px; }
+    .card_middle{ display:none;}
+    .card_right{ clear:both; width:93%;}
+    .card_right img{ margin-left:35px; margin-top:20px;}
+    .sub_page .date{ font-size:40px;  }
+    /* //Home */
+
+    /* Wedding start */
+    ul.list li{ clear:both; border-right:none; width:87%; margin:10px 0px;}
+    /* //Wedding */
+
+    /* Gift start */
+    .register-top { margin:0px auto;}
+    ul.logo_image li{
+        clear:both;
+        width:60%;
+        height:auto;
+        margin:10px auto;
+        margin-left:14%;
+    }
+
+    /* //Gift */
+
+    /* Portfolio start */
+    #portfolio-filter { margin:20px 0px 20px 30px; }
+    #portfolio-list { width:100%; margin-left:5px;  margin-top:-10px; }
+    #portfolio-list li { clear:both; margin:12px 8px 0px 20%; }
+    /* //Portfolio */
+
+    /* Contact start */
+    #contact .left { width:78%; padding-top:10px; margin-left:0px; }
+    #contact iframe{ width:93%; margin-left:0;}
+    #respond { width:100%; height:auto; margin:0px 0px 0px 0px; }
+    #respond textarea { width:110%; clear:both; }
+    #respond input[type=text] { width:165%; }
+    #respond textarea { width:165%; }
+    #form { display:block; width:200px; padding:0px 20px 0px 0px; }
+    #form .submitBtn { margin:20px -130px 0px 0px; width:40%; }
+    #form div { width:200px; }
+    #form label { width:100%; clear:both; }
+    .input-box1 { margin-bottom:10px; }
+    #form .form_left{ clear:both; width:100%; height:auto;}
+    #form .form_right{ clear:both; width:100%; height:auto;}
+    #form .guests{ width:80%; }
+    #respond label.error {
+        position:static;
+        font-size:10px;
+        width:220px;
+        height:25px;
+        line-height:14px;
+        margin:0px 0px 0px -5px;
+        padding:6px 0px 0px 5px;
+        clear:both;
+    }
+    #respond select{ width:35%; }
+    #contact .right { width:93%; clear:both; margin-left:15px; }
+    /* //Contact */
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+    /* Wrap/Container */
+    #content{
+        -webkit-box-shadow: 0px 3px 10px rgba(50, 50, 50, 0.3);
+        -moz-box-shadow:    0px 3px 10px rgba(50, 50, 50, 0.3);
+        box-shadow:         0px 3px 10px rgba(50, 50, 50, 0.3);
+        height:auto;
+        width:280px;
+
+    }
+    blockquote  p{
+        width:250px;
+        clear:both
+    }
+    .container { width:290px; margin:0 auto; margin-top:-40px; overflow:hidden; }
+    .card-pattern{ width:280px; margin:0 auto; }
+    .card_content{ clear:both; width:290px; margin:0 auto; margin-left:5px;}
+    .bottom-shade{
+        background-image:url(http://www.nossashistorias.com.br/site/templatesimages/categoria5/4/images/botom-shade2.png);
+        background-repeat:no-repeat;
+        background-position:left top;
+        height:25px;
+        width:300px;
+        clear:both;
+    }
+    .tabs_tab {
+        width:230px;
+
+    }
+    .button_large{
+        width:260px
+    }
+
+    .slide-pad2 { float:right;  padding:0px 280px 5px 5px; width:0%;}
+    .photo_container{width:230px;
+                     margin-left:-10px}
+    .photos img{
+        margin-left:-5px}
+    #features p{width:200px; clear: both;}
+    .dot_line{ clear:both; width:100%; margin:20px auto;}
+    .slide-pad1 { float:left;  padding:0px 0px 5px 5px; }
+    .center{ width:280px;}
+    #home,#portfolio,#contact,.sub_page { width:280px; margin:0 auto; }
+    .hline { width:94%; margin:20px 0px; }
+    .heading_dots{
+        clear:both;
+        width:100%;
+        margin:20px auto;
+    }
+    .heading{ font-size:22px;  }
+    .sub_page h6{ font-size:14px; line-height:25px; margin:0px 20px 0px 0px;}
+    /* //Wrap/Container */
+
+    /* Header  */
+    .green_bg{ height:106px; }
+    .border_pat{ margin-top:55px; }
+    .logo_sec{ width:300px; }
+    .logo_sec small{ font-size:12px; }
+    .middle_heart{ background-size:80px 68px;}
+    .groom, .bride{ width:36%; margin-top:-115px; font-size: 26px; line-height:16px;}
+    /* //Header  */
+
+    /* Menu start */
+    ul.arrowunderline { display:none; }
+    ul.arrowunderline li {
+        font-family:"Open Sans";
+        font-size:12px;
+        line-height:22px;
+        font-weight:normal;
+        color:#b6b6b6;
+        text-decoration:none;
+        text-transform:none;
+    }
+    ul.arrowunderline li:hover:after, ul.arrowunderline li#selected:after { border:hidden; }
+    .menu_nav { padding-top:0px; margin:5px 0px 0px 60%; }
+    #nav-wrap { position:relative; clear:both;}
+    .nav-wrap{ clear:both; position:relative; left:0;}
+
+
+    /* menu icon */
+    #menu-icon {
+        width:15px;
+        height:30px;
+        background:#f8f8f8 url(http://www.nossashistorias.com.br/site/templatesimages/categoria5/4/images/menu-icon.png) no-repeat 10px center;
+        padding:8px 25px 0 42px;
+        cursor:pointer;
+        -moz-box-shadow:10px 10px 5px #dbdbdb;
+        -webkit-box-shadow:10px 10px 5px #dbdbdb;
+        box-shadow:1px 1px 1px #dbdbdb;
+        -moz-border-radius:6px;
+        -webkit-border-radius:6px;
+        border-radius:6px;
+        display:block; /* show menu icon */
+    }
+    #menu-icon:hover { background-color:#e3e2e2; }
+    #menu-icon.active { background-color:#e7e7e7; }
+    /* main nav */
+    #nav {
+        clear:both;
+        position:absolute;
+        top:45px;
+        width:120px;
+        z-index:10000;
+        padding:5px;
+        background:#f8f8f8;
+        border:1px solid #dbdbdb;
+        moz-border-radius:6px;
+        -webkit-border-radius:6px;
+        border-radius:6px;
+        display:none; /* visibility will be toggled with jquery */
+    }
+    #nav li { clear:both;  margin:3px 0 3px 10px;}
+    #nav li:hover:after, ul.arrowunderline li#selected:after {
+        content:'';
+        width:0;
+        height:0;
+        position:absolute;
+    }
+
+
+    /* dropdown */
+    #nav ul { width:auto; position:static; display:block; border:none; background:inherit; }
+    #nav ul li { margin:3px 0 3px 15px; }
+    /* //Menu */
+
+    /* Home start */
+    .card_left{ clear:both; width:93%;}
+    .card_left img{ margin-left:10px; margin-bottom:20px; width:250px; height:210px; }
+    .card_heading{font-size:22px;}
+    .card_middle{ display:none;}
+    .card_right{ clear:both; width:93%;}
+    .card_right img{ margin-left:10px; margin-top:20px; width:250px; height:210px;}
+    .card_social ul{ margin:0px 0px 0px 50px;}
+    .sub_page .date{ font-size:28px; }
+
+    /* //Home */
+
+    /* Wedding start */
+    ul.list li{ clear:both; width:85%; border-right:none; margin:10px 0px;}
+    /* //Wedding */
+
+    /* Gift start */
+    .register-top { margin:0px auto;}
+    .register{ font-size:20px; padding:5px 0px; }
+    ul.logo_image li{
+        clear:both;
+        width:90%;
+        height:auto;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    .dot_line{ clear:both; width:250px;}
+    /* //Gift */
+
+    /* //Portfolio start */
+    #portfolio-filter { margin:20px 0px 20px 25px; }
+    #portfolio-list { width:100%; margin-left:5px;  margin-top:-10px; }
+    #portfolio-list li { clear:both; margin:12px 8px 0px 6%; }
+    /* Portfolio */
+
+    /* Contact start */
+    #contact .left { width:78%; padding-top:10px; margin-left:0px; }
+    #contact iframe{ width:80%; height:150px;}
+    #respond { width:100%; height:auto; margin:0px 0px 0px 0px; }
+    #respond textarea { width:110%; clear:both; }
+    #respond input[type=text] { width:110%; }
+    #form { display:block; width:200px; padding:0px 20px 0px 0px; }
+    #form .submitBtn { margin:20px -20px 0px 0px; width:30%; }
+    #form div { width:200px; }
+    #form label { width:100%; clear:both; }
+    .input-box1 { margin-bottom:10px; }
+    #form .form_left{ clear:both; width:100%; height:auto;}
+    #form .form_right{ clear:both; width:100%; height:auto;}
+    #form .guests{ width:80%; }
+    #respond  label.error {
+        position:static;
+        font-size:10px;
+        width:220px;
+        height:25px;
+        line-height:14px;
+        margin:0px 0px 0px -5px;
+        padding:6px 0px 0px 5px;
+        clear:both;
+    }
+    #respond select{ width:35%; }
+    #contact .right { width:94%; clear:both; margin-left:15px; }
+    #contact .right .twitter {
+        /*background-image:url(http://www.nossashistorias.com.br/site/templatesimages/categoria5/4/images/twitter1.png);
+        background-repeat:no-repeat;
+        background-position:left top;
+        width:248px;
+        height:122px;*/
+        background-image:none;
+        margin:20px 0px 0px 0px;
+    }
+    #contact .right .twitter h2 { padding:0px 0px 0px 20px; }
+    #contact .right  span { width:70%;}
+    #contact .right .twitter p { padding:0px 0px 0px 20px; }
+    #contact .right .twitter{ margin-left:-120px;}
+    /* //Contact */
+
+
+    #respond {
+        width: 79% !important;
+    }
+
+    .center {
+        text-align: center ;
+        margin-bottom: 20px;
+        margin-left: -27px  !important;
+    }
+
+    .heading{
+        margin-left: -9px;
+    }
+
+
+    #respond input[type=text] {
+        width: 91% !important;
+    }
+
+    .card_left img{
+        width: 382%;
+        height: auto;
+    }
+
+    .card_left{
+        height: 83px !important;
+    }
+
+    .groom{
+        left: 30%;
+        position: relative;
+    }
+
+    .card_content p{
+        margin-left: -30px;
+    }
+
+    .col-md-personalizado{
+        width: 100%;
+        text-align: center;
+        margin-top: 67px;
+    }
+
+    #respond{
+        margin-left: 0px !important;
+    }
+
+    #respond select{
+        width: 90%;
+    }
+}

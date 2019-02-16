@@ -1,0 +1,9 @@
+RewriteEngine on
+#PASSADO
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+#FUTURO
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)/(.*)$ index.php?nomesite=$1 [NC,L]

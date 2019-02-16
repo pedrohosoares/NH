@@ -1,0 +1,41 @@
+/*------------------------------------------------------------------
+[green Stylesheet]
+
+Template Color:	green;
+
+# [Color codes]
+
+# Regular green (links, headings span, footer names): #D88ECF
+# Darker green (countdown bg, span titles) #D88ECF
+# Light green (links selected) #D88ECF
+-------------------------------------------------------------------*/
+a, blockquote, span.love_quote, h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, span.post_date, .latest_posts .left13:hover .post_info h3 a, .latest_posts .left13_last:hover .post_info h3 a, .checkbox_container label span, .footer_names{
+color:#D88ECF;
+}
+blockquote{
+border-left:3px #D88ECF solid;}
+a.post_read_more, a.view_all, .wp-pagenavi a, .wp-pagenavi span.current{
+border:1px #D88ECF solid;}
+.wp-pagenavi a:hover{ 
+background-color:#D88ECF;}
+
+.back, .about_topsign, span.names_titles, span.subtitle{
+color:#D88ECF;}
+.back, .contact_email a{
+border:1px solid #D88ECF;}
+.no-touch .back:hover, .countdown_container, a.thumb_read_more, .full_width_carousel .left14 h3, .full_width_carousel .left14_last h3, input.form_submit_contact, input[type="checkbox"] + label:before, input[type="checkbox"]:checked + label:before
+{background-color:#D88ECF; }
+
+
+.tp-title span:nth-child(2), .tp-title:hover, .page_header_title a, .title span, .title_under, ul#main_menu li a.selected, ul#main_menu li a:hover, span.carousel_titles{
+color:#D88ECF;}
+
+ul#main_menu li a.selected, ul#main_menu li a:hover, .footer_menu li{
+//background:url(http://www.nossashistorias.com.br/templatesimages/categoria3/3/images/menu_bullet.png) no-repeat left;
+}
+
+@media screen and (max-width: 680px) {
+nav.menu{background-color:#D88ECF;}
+ul#main_menu li a.selected, ul#main_menu li a:hover, .footer_menu li{
+background:none;}
+}

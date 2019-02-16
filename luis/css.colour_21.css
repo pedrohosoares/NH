@@ -1,0 +1,75 @@
+/* colors */
+body a:link{ color:#96E6D5; text-decoration:none;}
+body a:visited{ color:#96E6D5; text-decoration:none;}
+body a:active{ color:#96E6D5; text-decoration:none;}
+ul.arrowunderline li:hover { color:#96E6D5; cursor:pointer; }	
+ul.arrowunderline li#selected { /* use CSS generated content to add arrow to the menu */
+	color:#96E6D5; /* style of arrow underline */
+	cursor:pointer;
+	}
+ul.list li .green_txt{
+color:#96E6D5;
+}
+.heading{
+color:#96E6D5; 
+}
+.date{
+		color:#96E6D5;
+}
+.green_bg{	background-color:#96E6D5; }	
+#form input, textarea { color:#96E6D5; }
+.card_circle{background-color:#96E6D5;}
+
+#portfolio-filter li a:hover { background-color:#96E6D5; }
+#portfolio-filter li a.current { background-color:#96E6D5;	}
+
+#portfolio-list li:hover h5 { color:#96E6D5; }
+
+#form input, textarea { color:#A9A9A9;height:100px; }
+#form input[type="text"]:focus, #form textarea:focus { background-color:none; color:#333333; }
+#form .submitBtn {
+text-shadow:0 0px 0 #000;
+color:#FFFFFF;
+background-color:#96E6D5;
+}
+#form .submitBtn:hover{ background-color:#666666; }
+#form .font-11{  color:#96E6D5; }
+#contact .right .details li { color:#e86874; }
+#contact .right .twitter ul a { color:#96E6D5; } 
+#contact .right  span a:hover { color:#96E6D5; text-decoration:none; }
+.input-box1 { background-color:#96E6D5;}
+.accordion .tog.button_large span{color:#4F4F4F}
+
+.toggle_heading{
+	font-size:18px;
+	font-weight:500;
+	color:#96E6D5;
+	}
+
+.green_highlite{background:#96E6D5;}
+blockquote{
+color:#96E6D5;}
+
+/* colors */		
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#menu-icon { color:#96E6D5; }
+	#nav li#selected{ color:#96E6D5; cursor:pointer; border:hidden; }
+	#nav ul a:hover { background:none; color:#96E6D5; }
+	#nav a, #nav ul a { font:inherit; background:none; display:inline; padding:0; color:#96E6D5; border:none; }
+	#nav a:hover, 
+	#nav ul a:hover { background:none; color:#96E6D5; }
+	#nav li:hover { color:#96E6D5; cursor:pointer; }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	#menu-icon { color:#96E6D5; }
+	#nav li#selected{ color:#96E6D5; cursor:pointer; border:hidden; }
+	#nav ul a:hover { background:none; color:#96E6D5; }
+	#nav a, #nav ul a { font:inherit; background:none; display:inline; padding:0; color:#96E6D5; border:none; }
+	#nav a:hover, 
+	#nav ul a:hover { background:none; color:#96E6D5; }
+	#nav li:hover { color:#96E6D5; cursor:pointer; }
+}

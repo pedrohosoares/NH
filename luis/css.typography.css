@@ -1,0 +1,97 @@
+body {
+font-family:Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 22px;
+color:#777777;
+font-weight:400;
+}
+/* font-family: 'Rouge Script', cursive;*/
+
+h2,h5{font-family: 'open sans', sans-serif;}
+
+.card_heading, .card_circle, .register, ul.arrowunderline li{font-family: 'open sans', sans-serif;}
+#wedding ul li, #wedding ul li .head, #wedding ul li .green_txt {font-family: 'open sans', sans-serif;}
+.heading{
+font-family: 'open sans Light', sans-serif;
+font-size:36px; 
+font-weight:700;
+line-height:36px; 
+text-transform:uppercase; 
+text-align:center;
+padding:20px 0px;
+width:auto;
+text-align:center;
+}
+
+ul.list li .green_txt{
+font-weight:600;
+font-size:16px;
+text-align:center;
+}
+.logo_sec{
+	font-family: "Dancing Script", Arial;
+	font-size: 45px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+.logo_sec a:link{ color:#333333; text-decoration:none;}
+.logo_sec a:visited{ color:#333333; text-decoration:none;}
+.logo_sec a:hover{ color:#333333; text-decoration:none;}
+.logo_sec a:active{ color:#333333; text-decoration:none;}
+	
+.logo_sec span{color:#FFFFFF;}
+.logo_sec span a:link{ color:#FFFFFF; text-decoration:none;}
+.logo_sec span a:visited{ color:#FFFFFF; text-decoration:none;}
+.logo_sec span a:hover{ color:#FFFFFF; text-decoration:none;}
+.logo_sec span a:active{ color:#FFFFFF; text-decoration:none;}
+
+h2{font-size:21px; font-weight:600; color:#727272; }
+h5{font-size:14px; font-weight:100; }
+h5 span{color:#727272;}
+h6{font-family: 'open sans Light', sans-serif; font-size:22px; color:#999999; line-height:36px; text-align:center;}
+h6 span{ color:#000000;font-family: 'open sans', sans-serif;}
+li span{font-size:12px; /*font-weight:600;*/ color:#727272; }
+big{ font-family:'Open Sans Light', sans-serif; font-size:45px;  text-transform:uppercase; line-height:45px;}
+big span{color:#a9a8a8;}
+small{
+	font-family: "Open Sans";
+	font-size: 13px;
+	color:#FFFFFF;
+	text-decoration:none;
+	font-weight:300;
+	font-style:italic;
+	margin-bottom:20px;
+}
+#respond p, .card_content p{
+	font-family: 'PT Sans', sans-serif;
+	font-size:14px;
+	color:#707070;
+	line-height:20px;
+	text-align:center;
+        height: 35px;
+}
+.date{ font-family: 'Open Sans Condensed', sans-serif; 
+		font-size:50px;
+		font-weight:800;
+		line-height:60px;
+		text-transform:uppercase;
+}
+
+.time{
+	font-family: 'open sans', sans-serif;
+	color:#333333;
+	font-size:20px;
+	line-height:30px;
+}
+.time span{ font-weight:700;color:#333333;}
+.location{
+	font-family: 'open sans', sans-serif;
+	color:#999999;
+	font-size:14px;
+	text-transform:uppercase;
+	line-height:30px;
+	font-weight:500;
+}
+
+p.texto-justificado{text-align: left;}
